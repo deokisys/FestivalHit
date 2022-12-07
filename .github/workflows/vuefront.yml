@@ -44,7 +44,7 @@ jobs:                                 # Job 설정
           cache: 'npm' 
           # 기본적으로 package-lock.json, yarn.lock을 찾지만 만약 따로 관리하는게 있다면 여기서 특정 파일을 지정하는것도 가능
           # 따로 파일 관리 안하면, 기본 옵션으로 자동으로 잘 찾아준다.
-          cache-dependency-path: finalproject_front/package-lock.json
+          cache-dependency-path: '**/package-lock.json'
       
       - name: install vue # vue설치
         run: npm install @vue/cli
