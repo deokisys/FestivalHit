@@ -44,10 +44,10 @@ jobs:                                 # Job 설정
           node-version: ${{ matrix.node-version }}
           # setup-node에서 이젠 캐시도 지원 npm, yarn, pnpm(v6.10+)
           # 캐시는 옵션으로, 작성 안하면 캐시 작동 안함
-          cache: 'npm' 
+          #cache: 'npm' 
           # 기본적으로 package-lock.json, yarn.lock을 찾지만 만약 따로 관리하는게 있다면 여기서 특정 파일을 지정하는것도 가능
           # 따로 파일 관리 안하면, 기본 옵션으로 자동으로 잘 찾아준다.
-          cache-dependency-path: '**/package-lock.json'
+          #cache-dependency-path: '**/package-lock.json'
       
       - name: install vue # vue설치
         run: npm install @vue/cli
