@@ -16,6 +16,9 @@ jobs:                                 # Job 설정
   build:                              # Job ID로 여러개 만들 수 있다.
     name: build start       # Job 이름
     runs-on: ubuntu-18.04    
+    defaults:
+      run:
+        working-directory: 'finalproject_front'
 
     # 해당 build에서 사용하는 환경변수 선언
     env:
@@ -48,12 +51,11 @@ jobs:                                 # Job 설정
       
       - name: install vue # vue설치
         run: npm install @vue/cli
-        working-directory: finalproject_front
+
         
       - name: npm install           # 설치
         run: npm install
         # 만약 특정 폴더로 이동하고 위의 run을 작동 시키고 싶을때 working-directory를 선언
-        working-directory: finalproject_front 
 
       # 환경변수
       - name: .env파일 만들기
@@ -61,13 +63,11 @@ jobs:                                 # Job 설정
           URL : ${{secrets.URL}}
         run: |
           echo VUE_APP_BASE_URL = $URL >> .env.local
-        working-directory: finalproject_front
           
       - name: npm build              # 빌드시작
         env:
             VUE_APP_BASE_URL : ${{secrets.URL}}
         run: npm run build  
-        working-directory: finalproject_front
 
       # 넘기기
       - name: rsync market
