@@ -13,6 +13,10 @@
 - [시연영상](https://www.youtube.com/watch?v=dHSFuy7bUDU)
 - [시연사이트](http://fit.deokisys.xyz)
 
+## wiki보러 가기
+
+- [wiki](https://github.com/deokisys/FestivalHit/wiki)
+  - 개발규칙 회의 등을 작성하였습니다.
 
 ## 화면 구성
 - 메인화면
@@ -31,10 +35,6 @@
   - 축제별 상세 정보를 확인가능합니다.
   - 축제의 지역, 날짜, 주소, 홈페이지, 연락처, 축제의 개요를 확인 가능 합니다.
 ![축제 상세정보](https://user-images.githubusercontent.com/24247768/208626579-140b3eb3-03b7-4ce9-95f5-c244de6204cc.png)
-## wiki보러 가기
-
-- [wiki](https://lab.ssafy.com/sjb378/finalfestival/-/wikis/home)
-  - 개발규칙 회의 등을 작성하였습니다.
 
 ## 사용한 api
 
