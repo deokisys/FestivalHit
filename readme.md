@@ -1,14 +1,36 @@
 # Final프로젝트
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24247768/203729877-177a09a0-11af-4406-9424-875a21401908.png" width="400" height="400"/>
+<p>
+
+---
 - 축제 게시판(Fit - 축제다 축제)
 - 2022.11.17~2022.11.25
 
-![fit로고](https://user-images.githubusercontent.com/24247768/203729877-177a09a0-11af-4406-9424-875a21401908.png)
-
-## 시연영상 보러가기
+## 시연
 
 - [시연영상](https://www.youtube.com/watch?v=dHSFuy7bUDU)
+- [시연사이트](http://fit.deokisys.xyz)
 
+
+## 화면 구성
+- 메인화면
+  - 메인에서는 현재 진행중인 축제를 확인 할 수 있습니다.
+![메인화면](https://user-images.githubusercontent.com/24247768/208626505-7029ccae-513c-4f6d-aaa7-84f9a3754faa.png)
+
+- 축제 캘린더
+  - 날짜별 진행 축제를 확인 할 수 있습니다.
+![축제 캘린더](https://user-images.githubusercontent.com/24247768/208626410-851705bc-6764-4fc2-bd93-08f07fb6dbb9.png)
+
+- 축제 지도
+  - 지역별 진행 축제를 확인 할 수 있습니다.
+![축제 지도](https://user-images.githubusercontent.com/24247768/208626172-fbd1e757-4a79-42ee-912b-67b16a71da6a.png)
+
+- 축제 상세정보
+  - 축제별 상세 정보를 확인가능합니다.
+  - 축제의 지역, 날짜, 주소, 홈페이지, 연락처, 축제의 개요를 확인 가능 합니다.
+![축제 상세정보](https://user-images.githubusercontent.com/24247768/208626579-140b3eb3-03b7-4ce9-95f5-c244de6204cc.png)
 ## wiki보러 가기
 
 - [wiki](https://lab.ssafy.com/sjb378/finalfestival/-/wikis/home)
